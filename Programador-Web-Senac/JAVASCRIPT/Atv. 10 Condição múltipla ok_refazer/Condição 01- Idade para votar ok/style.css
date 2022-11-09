@@ -1,0 +1,47 @@
+/* body#corpo
+{
+    background-color: rgb(144, 155, 255);
+}
+div#cabeçalho
+{
+    position: relative;
+    left: 32%;
+}
+h4#subt
+{
+    position: relative;
+    left: 45%;
+}
+div#krasi
+{
+    position: relative;
+    left: 40.5%;
+}
+h3#fixa
+{
+    font-size: large;
+    position: relative;
+    left: 37.9%;
+} */
+div#tudin
+{
+    position:absolute;
+    border-style: solid;
+    border-color: rgb(253, 165, 221);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 380px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border-radius: 2.5em;
+    
+        
+}
+             
+h2, h3, h4
+{
+    font-family: verdana;  
+} 

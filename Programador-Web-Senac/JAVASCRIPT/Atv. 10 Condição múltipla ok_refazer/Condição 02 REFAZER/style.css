@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+h2#Título
+{
+  font-family:'DM Serif Display', serif;
+  font-size: 60px;
+  position: relative;
+  left: 30%;
+}
+
+/* div#Cardápio
+{
+
+} */
+
+h3#Subtítulo
+{
+    font-family:'DM Serif Display', serif;
+    position: relative;
+    left: 30%;
+}
+
+fieldset#Bebidas
+{
+    display: block;
+    width: 15%;
+    float: left;
+    position: relative;
+    left: 30%;
+    
+}
+
+fieldset#PreçoB
+{
+    display: block;
+    width: 10%;
+    height: 115.2px;
+    float: left;
+    position: relative;
+    left: 30%;
+}
+
+fieldset#Salgados
+{
+    display: block;
+    width: 15%;
+    float: left;
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+
+fieldset#PreçoS
+{
+    display: block;
+    width: 10%;
+    height: 115.2px;
+    float: left;
+    position: absolute;
+    left: 47.1%;
+    top: 60%;
+}
+
+fieldset#Doces
+{
+    display: block;
+    width: 15%;
+    float: left;
+    position: absolute;
+    left: 30%;
+    top: 82%;
+}
+
+fieldset#PreçoD
+{
+    display: block;
+    width: 10%;
+    height: 115.2px;
+    float: left;
+    position: absolute;
+    left: 47.1%;
+    top: 82%;
+    
+}
+
+button#Calcular
+{
+    /* background-color: beige; */
+    font-family:'DM Serif Display', serif ;
+    font-size: x-large;
+    top: 20%;
+    position: fixed;
+    left: 40%;
+    width: 8%;
+    height: 8%;
+}

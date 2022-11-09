@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade de Posição</title>
+    <style type="text/css">
+        h1.titulo { 
+            font-size: xx-large;
+            position: inherit;
+            top: 50px;
+    }
+
+       div.relativa{
+        font-size: larger;
+        position: relative;
+        width: 400px;
+        height:200px ;
+        border: 3px solid orangered;
+    }
+
+    div.static{ 
+        font-size: larger;
+        position: static;
+        left: 30px;
+        right: 15px;
+        border: 3px solid orange;
+    }
+
+    div.absolute{
+        font-size: large;
+        position: absolute;
+        top: 280px;
+        right: 1130px;
+        width: 200px;
+        height: 100px;
+        border: 3px solid red; 
+    }
+
+    div.fixed{ 
+        font-size: large;
+        position: fixed;
+        width: 300px;
+        bottom: 0px;
+        right: 0px;
+        border: 3px solid yellow;
+    }
+
+    div.sticky{
+        background-color: darkgray;
+        font-size: large;
+        position: sticky;
+        top: 0px;
+        border: 3px solid rgb(212, 255, 0);
+    }
+
+    
+    table.tabela{
+        font-size: large;
+        position: relative;
+        right: 2px;
+        top:0px;
+    }
+   
+    
+    </style>
+</head>
+<body>
+    
+
+    <h1 class="titulo"><b>Propriedades de Posição</b></h1>
+    
+    <div class="sticky">Sou Sticky. Alterno entre relativee fixed, dependendo da posição de rolagem. Sou posicionado em relação até que uma determinada posição de deslocamento seja encontrada na viewport - então ele "gruda" no lugar (como position:fixed).</div><br>
+
+    <div class="static">Sou Static. Elementos static não são afetados pelas propriedades superior, inferior, esquerda e direita.</div><br>
+
+    <div class="relativa">Sou Relative. Definir as propriedades superior, direita, inferior e esquerda de um elemento relative fará com que ele seja ajustado para fora de sua posição normal. </div><br>
+
+    <div class="absolute">Sou Absolute. Posicionado em relação ao ancestral posicionado mais próximo. Posso sobrepor outros elementos.</div><br>
+
+    <div class="fixed">Sou Fixed. Posicionado em relação à janela de visualização, o que significa que sempre permaneço no mesmo lugar, mesmo que a página seja rolada. As propriedades top, right, bottom e left são usadas para posicionar o elemento.</div><br>
+
+    
+    <table class="tabela" border="1">
+    <tr>
+        <th>Propriedade</th>
+        <th>Descrição</th>
+    </tr>
+    <tr>
+        <td>Top</td>
+        <td>Afeta a posição vertical de um elemento posicionado</td>
+    </tr>
+    <tr>
+        <td>Left</td>
+        <td>Afeta a posição horizontal de um elememto posicionado</td>
+    </tr>
+    <tr> 
+        <td>Right</td>
+        <td>Afeta a posição horizontal de um elemento posicionado</td>
+    </tr>
+    <tr>
+        <td>Bottom</td>
+        <td>Afeta a posição vertical de um elemento posicionado</td>
+    </tr>
+    <tr>
+        <td>Float</td>
+        <td>Especifica como um objeto deve flutuar</Em></td>
+    </tr>
+    <tr>
+        <td>Width</td>
+        <td>Especifica largura</td>
+
+    </tr>
+    <tr>
+        <td>Height</td>
+        <td>Especifica a altura</td>
+    </tr>
+    <tr>
+        <td>Clip</td>
+        <td>Especifica um retângulo para recortar um elememto posicionado</td>
+    </tr>
+    <tr>
+        <td>Position</td>
+        <td>Especifica o tipo de posicionamento usado</td>
+    </tr>
+   <tr>
+        <td>Clear</td>
+        <td>Especifica o que deve acontecer com o elemento flutuante</td>
+    </tr>
+
+    </table>
+
+</body>
+</html>

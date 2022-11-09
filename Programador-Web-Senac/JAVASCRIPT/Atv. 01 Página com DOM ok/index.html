@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos DOM</title>
+    <script src="main.js" type="text/javascript" src="style.css" type="text/css">
+    </script>
+</head> 
+<body>
+    
+    <h1>
+        Elementos DOM
+    </h1>
+    
+    <h2>
+        Onclick
+    </h2>
+
+    <p>
+        Onclick aciona uma função quando um elemento é clicado.
+    </p>
+
+    <p>
+        Exemplo 01.<br>
+        Clique para acionar uma função que responderá "Onclick On"
+    </p>
+
+    <button onclick="msg01()">
+        Clique em mim
+    </button>
+
+    <p id="onclick01">
+
+    </p>
+
+    <p>
+        Exemplo 02.<br>
+        Clique para acionar uma função que dirá a Hora e a Data.
+    </p>
+
+    <button type="button" onclick="DataHora()">
+    Clique para mostrar data e hora.
+    </button> 
+
+    <p id="hora">
+    </p>
+
+    <button type="button" onclick="document.getElementById('hora').innerHTML = Date()">
+        Clique para mostrar data e hora.
+        </button> 
+    <p id="hora">
+    </p>
+
+    <h2>
+        Onfocus
+    </h2>
+
+   <!--  <button type="button" class="botão" onfocus="dentro0()">
+        Clique dentro
+    </button> -->
+
+    <h2>
+        Onblur
+    </h2>
+
+    <h2>
+        Onfocus/Onblur
+    </h2>
+
+    Clique dentro e fora:<input type="text" id="input1" onfocus="dentro()" onblur="fora()"
+
+</body>
+</html>
