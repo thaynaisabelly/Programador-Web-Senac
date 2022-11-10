@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+body.Body{
+    background-color: rgba(216, 232, 247, 0.445);
+
+}
+
+div.Banner{
+    float: left;
+    font-size: medium;
+  
+}
+
+img.intelcore{
+    float: left;
+    width: 100px;
+}
+
+div.Banner2{
+    /* left: 150px; */
+    float: left;
+    font-size: medium;
+   
+}
+
+img.windows11{
+    /* left: 150px; */
+    float: left;
+    width: 100px;
+}
+
+h1.Cabeçalho{
+    font-size: xx-large;
+    position:relative;
+    left: 45%;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+p.Compre{
+    font-size: large;
+
+}
+
+img.Latitude{
+    background-color:aliceblue;
+    float: left;
+    width: 450px;
+}
+
+h2.Latitude{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: #0074e9;
+}
+
+p.LatitudeValor{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+button.CompreLatitude{
+    position: relative;
+    top: 200px;
+    left:70px ;
+    width: 200px;
+    border: #0074e9 solid 3px;
+    border-radius: 0.3em;
+    padding: 10px;
+    background-color: #0074e9;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.ConheçaLatitude{
+    position: relative;
+    top: 200px;
+    width: 200px;
+    border: #0074e9 solid 3px;
+    border-radius: 0.3em;
+    padding: 10px;
+    background-color: white;
+    color: #80a3c6;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+div.Latitude{
+    border-bottom: 160px solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: x-large;
+}
+
+img.GamerGS{
+    background-color: aliceblue;
+    float: left;
+    width: 450px;
+}
+
+h2.GamerGS{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: #0074e9;
+}
+
+p.GamerGSValor{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+button.CompreGamerGS{
+    position: relative;
+    top: 200px;
+    left: 70px;
+    width: 200px;
+    border: #0074e9 solid 3px;
+    border-radius: 0.3em;
+    padding: 10px;
+    background-color: #0074e9;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.ConheçaGamerGS{
+    position: relative;
+    top: 200px;
+    width: 200px;
+    border: #0074e9 solid 3px;
+    border-radius: 0.3em;
+    padding: 10px;
+    background-color: white;
+    color: #80a3c6;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+div.GamerGS{
+    border-bottom: 160px solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: x-large;
+}
+
+
+
+img.NotebookemPromoção{
+    background-color: aliceblue;
+    float: left;
+    width: 450px;
+}
+
+h2.NotebookemPromoção{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: #0074e9;
+}
+
+p.NotebookPValor{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+button.CompreNotebookemPromoção{
+    position: relative;
+    top: 200px;
+    left: 70px;
+    width: 200px;
+    border: #0074e9 solid 3px;
+    border-radius: 0.3em;
+    padding: 10px;
+    background-color: #0074e9;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.ConheçaNotebookemPromoção{
+    position: relative;
+    top: 200px;
+    width: 200px;
+    border: #0074e9 solid 3px;
+    border-radius: 0.3em;
+    padding: 10px;
+    background-color: white;
+    color: #80a3c6;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+div.NotebookemPromoção{
+    border-bottom: 160px solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: x-large;
+}
+
+img.Vostro{
+    background-color: aliceblue;
+    float: left;
+    width: 450px;
+}
+
+h2.Vostro{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: #0074e9;
+}
+
+p.VostroValor{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+button.CompreVostro{
+    position: relative;
+    top: 200px;
+    left: 70px;
+    width: 200px;
+    border: #0074e9 solid 3px;
+    border-radius: 0.3em;
+    padding: 10px;
+    background-color: #0074e9;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.ConheçaVostro{
+    position: relative;
+    top: 200px;
+    width: 200px;
+    border: #0074e9 solid 3px;
+    border-radius: 0.3em;
+    padding: 10px;
+    background-color: white;
+    color: #80a3c6;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+div.Vostro{
+    border-bottom: 160px solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: x-large;
+}
+
+footer.rodapé{
+    background-color: rgba(140, 140, 255, 0.26);
+}
+
+div.Conta{
+    float: left;
+}
+
+div.Suporte{
+    float: left;
+}
+
+div.FaleConosco{
+    float: left;
+}
+
+p.Rodapé{
+    position: relative;
+}

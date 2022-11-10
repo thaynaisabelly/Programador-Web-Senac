@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Cardápio Virtual
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Switch-Case.js" type="text/javascript">
+    </script>
+</head>
+<body>
+<!-- página com cardápio onde quando se escolhe os itens o valor final é calculado -->
+    <h2 id="Título"><!-- Título -->
+        Cardápio Virtual
+    </h2>
+
+    <br>
+    <br>
+
+   <!--  <div id="Cardápio"> Corpo do cardápio --> 
+        <h3 id="Subtítulo"><!-- Subtítulo -->
+            Selecione os itens desejados e descubra o valor total
+        </h3>
+
+        <fieldset id="Bebidas"><!-- Lista de Bebidas para selecionar -->
+            <legend>
+                Nossas opções de Bebidas:
+            </legend>
+                <section id="BebidasS">
+                    <div id="B1">
+                        <input type="checkbox" id="Água" name="Bebidas" value="Água">
+                        <label for="Água">
+                            Água
+                        </label>
+                    </div>
+                    <div id="B2">
+                        <input type="checkbox" id="Suco L" name="Bebidas" value="Suco L">
+                        <label for="Suco L">
+                            Suco de Laranja
+                        </label>
+                    </div>
+                    <div id="B3">
+                        <input type="checkbox" id="Coca N" name="Bebidas" value="Coca N">
+                        <label for="Coca N">
+                            Coca Cola Normal
+                        </label>
+                    </div>
+                    <div id="B4">
+                        <input type="checkbox" id="Coca L" name="Bebidas" value="Coca L">
+                        <label for="Coca L">
+                            Coca Cola Ligth
+                        </label>
+                    </div>
+                    <div id="B5">
+                        <input type="checkbox" id="Coca Z" name="Bebidas" value="Coca Z">
+                        <label for="Coca Z">
+                            Coca Cola Zero
+                        </label>
+                    </div>
+                </section>
+        </fieldset>
+
+        <fieldset id="PreçoB"><!-- Preços das Bebidas -->
+            <legend>
+                Preços das Bebidas
+            </legend>
+                    <li id="L1">
+                        R$ 2,50
+                    </li>
+                    <li id="L2">
+                        R$ 4,00
+                    </li>
+                    <li id="L3">
+                        R$ 6,00
+                    </li>
+                    <li id="L4">
+                        R$ 6,00
+                    </li>
+                    <li id="L5">
+                        R$ 6,00
+                    </li>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset id="Salgados"><!-- Lista de Salgados para selecionar -->
+            <legend>
+                Nossas opções de Salgados:
+            </legend>
+                <section id="SalgadosS">
+                    <div id="S1">
+                        <input type="checkbox" id="Cox" name="Salgados" value="Cox">
+                        <label for="Coxinha">
+                            Coxinha
+                        </label>
+                    </div>
+                    <div id="S2">
+                        <input type="checkbox" id="Pão Q" name="Salgados" value="Pão Q">
+                        <label for="">
+                            Pão de Queijo
+                        </label>
+                    </div>
+                    <div id="S3">
+                        <input type="checkbox" id="Enrol" name="Salgados" value="Enrol">
+                        <label for="">
+                            Enroladinho
+                        </label>
+                    </div>
+                    <div id="S4">
+                        <input type="checkbox" id="Past Q" name="Salgados" value="Past Q">
+                        <label for="">
+                            Pastel de Queijo
+                        </label>
+                    </div>
+                    <div id="S5">
+                        <input type="checkbox" id="Mini P" name="Salgados" value="Mini P">
+                        <label for="">
+                            Mini Pizza
+                        </label>
+                    </div>
+                </section>
+        </fieldset>
+
+        <fieldset id="PreçoS"><!-- Preços dos Salgados -->
+            <legend>
+                Preços dos Salgados
+            </legend>
+                    <li id="L6">
+                        R$ 2,50
+                    </li>
+                    <li id="L7">
+                        R$ 3,00
+                    </li>
+                    <li id="L8">
+                        R$ 2,50
+                    </li>
+                    <li id="L9">
+                        R$ 5,00
+                    </li>
+                    <li id="L10">
+                        R$ 6,00
+                    </li>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset id="Doces"><!-- Lista de Doces para selecionar -->
+            <legend>
+                Nossas opções de Doces:
+            </legend>
+                <section id="DocesS">
+                    <div id="D1">
+                        <input type="checkbox" id="Sorv C" name="Doces" value="Sorv C">
+                        <label for="">
+                            Sorvete de Chocolate
+                        </label>
+                    </div>
+                    <div id="D2">
+                        <input type="checkbox" id="Sorv M" name="Doces" value="Sorv M">
+                        <label for="">
+                            Sorvete de Morango
+                        </label>
+                    </div>
+                    <div id="D3">
+                        <input type="checkbox" id="Brig" name="Doces" value="Brig">
+                        <label for="">
+                            Brigadeiro
+                        </label>
+                    </div>
+                    <div id="D4">
+                        <input type="checkbox" id="Pud" name="Doces" value="Pud">
+                        <label for="">
+                            Pudim
+                        </label>
+                    </div>
+                    <div id="D5">
+                        <input type="checkbox" id="Cup" name="Doces" value="Cup">
+                        <label for="">
+                            Cupcake
+                        </label>
+                    </div>
+                </section>
+        </fieldset>
+
+        <fieldset id="PreçoD"><!-- Preços dos Doces -->
+            <legend>
+                Preços dos Doces
+            </legend>
+                    <li id="L11">
+                        R$ 5,00
+                    </li>
+                    <li id="L12">
+                        R$ 5,00
+                    </li>
+                    <li id="L13">
+                        R$ 2,50
+                    </li>
+                    <li id="L14">
+                        R$ 3,50
+                    </li>
+                    <li id="L15">
+                        R$ 3,50
+                    </li>
+        </fieldset>
+   <!--  </div> -->
+
+    <button onclick="Calcular()" id="Calcular"><!-- botão que ativa a calculadora -->
+        Calcular
+    </button>
+
+</body>
+</html>
