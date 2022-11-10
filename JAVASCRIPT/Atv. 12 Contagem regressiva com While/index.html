@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem regressiva</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<!-- falta escrever o conteudo HTML-->
+
+<h1>Contagem regressiva</h1>
+
+<label for="fn1">Primeiro Numero</label>
+<input type="text" id="fn1"><br>
+<label for="fn2">Segundo numero</label>
+<input type="text" id="fn2"><br>
+<input type="button" onclick="contagem
+()" name="Comecar" value="Comecar"><br>
+<div id="saida"></div>
+
+    <script>
+        function contagem () {
+            var saida = document.getElementById('saida')
+            var n1 = Number(document.getElementById('fn1').value)
+            var n2 = Number(document.getElementById('fn2').value)
+            var cont
+
+            saida.innerHTML += `<h2>Contando de ${n1} ate ${n2} </h2>`
+            if (n1<n2) {
+                cont = n1
+                while (cont <= n2) {
+                    saida.innerHTML += `${cont} &#x1F449;`
+                    cont ++ //cont = cont + 1
+                }
+            } else  if (n2<n1) {
+                cont = n1
+                while (cont >= n2) {
+                    saida.innerHTML += `${cont} &#x1F449;`
+                    cont -- // cont = cont - 1
+                }
+            } else {
+                saida.innerHTML += `Nao e possivel contar, pois os numeros sao iguais`
+            }
+            saida.innerHTML += `&#x1F3C1;`
+        }
+
+    </script>
+
+</body>
+
+</html>
